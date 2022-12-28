@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.sudoku-grid {
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: repeat(9, 106px);
+  grid-template-rows: repeat(9,90px);
+  margin-left: 450px;
+}
+.row > input {
+  font-size: 30pt;
+  margin-left: 35px;
+}
+.row > h1 {
+  font-size: 30pt;
+  margin-left: 25x;
+  margin-top: 0px;
+}
+.row {
+  border: solid;
+}
